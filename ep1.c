@@ -75,7 +75,7 @@ void converteNum(double num,int base){ // ESTA FUNÇÃO CONVERTE UM NUMÉRO DECI
     char *p;
     
     if (num < 0) {
-        num = fab(num); // deixa positivo
+        num = fabs(num); // deixa positivo
         sinal = 1;
     }
     inteiro = abs(num); // inteiro É A PARTE INTEIRA DE num
